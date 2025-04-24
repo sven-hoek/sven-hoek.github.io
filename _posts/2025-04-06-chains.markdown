@@ -15,12 +15,12 @@ Inspired by [Sublucid Geometry's blog post](https://zalo.github.io/blog/constrai
 
 
 <canvas id="chainsCanvas" style="touch-action:none;"></canvas>
-<script src="../../../../assets/js/src/util.js"></script>
-<script src="../../../../assets/js/src/vector.js"></script>
-<script src="../../../../assets/js/src/input.js"></script>
-<script src="../../../../assets/js/src/environment.js"></script>
-<script src="../../../../assets/js/src/drawing.js"></script>
-<script src="../../../../assets/js/src/drawables/chains.js"></script>
-<script src="../../../../assets/js/src/drawables/constrained_point.js"></script>
-<script src="../../../../assets/js/src/drawables/mouse_circle.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/docs/assets/js/chains.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/util.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/vector.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/input.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/environment.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/drawing.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/drawables/chains.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/drawables/constrained_point.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/src/drawables/mouse_circle.js"></script>
+<script src="../../../../assets/js/simple_physics_sim/chains.js"></script>
