@@ -1,0 +1,3 @@
+[submodule "assets/js/simple_physics_sim"]
+	path = assets/js/simple_physics_sim
+	url = git@github.com:sven-hoek/simple_physics_sim.git
