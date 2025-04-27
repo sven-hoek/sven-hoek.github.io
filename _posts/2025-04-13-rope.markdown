@@ -1,16 +1,17 @@
 ---
 layout: post
 title:  "Elastic Rope with Obstacle Collision"
-date:   2025-04-13 16:17:21 +0800
+date:   2025-04-13 16:17:00 +0800
 categories: blog
 
 ---
 
-Touch the screen or move the mouse around to start and interact. Note that scrolling with a touchscreen requires to touch ouside the canvas area.
-The simulation bases on simple distance constraints and Verlet integration.
-Elements either have a minimum distance (being pushed away from each other) or a maximum distance (being contained with one another).
+By giving the points of a chain some inertia and by replacing a fixed-distance constraint by projections towards the desired link length, one can get a stretchy rope.
+Smash the rope into the other objects and watch them interact.
 
-Inspired by [Sublucid Geometry's blog post](https://zalo.github.io/blog/constraints/), which has a little more info.
+Touch the screen or move the mouse around to start and interact. Note that scrolling with a touchscreen requires to touch ouside the canvas area.
+
+<link rel="stylesheet" href="../../../../assets/css/styles.css" />
 
 <canvas id="ropeCanvas" style="touch-action:none;"></canvas>
 
@@ -23,3 +24,8 @@ Inspired by [Sublucid Geometry's blog post](https://zalo.github.io/blog/constrai
 <script src="../../../../assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
 <script src="../../../../assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
 <script src="../../../../assets/js/interactive_animations/rope.js"></script>
+
+The code can be found at [https://github.com/sven-hoek/interactive_animations/](https://github.com/sven-hoek/interactive_animations/).
+
+Inspired by [Sublucid Geometry's blog post](https://zalo.github.io/blog/constraints/).
+

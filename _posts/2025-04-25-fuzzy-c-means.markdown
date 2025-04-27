@@ -22,32 +22,37 @@ The algorithm is rather simple:
     1. Update each datapoint's affilitation to the cluster by calculating their distance to the cluster centroid
 
 The algorithm will work with any n-dimensional data but in 2D, it's very easy to visualize. Below you can set the parameters of the algorithm.
-Push the datapoints around with your mouse and click the button to run the algorithm and colorize them according to their cluster membership.
+Push the datapoints around with your mouse to form clusters and click the button to run the algorithm.
+It will colorize them according to their cluster membership.
 
-You will realize that the algorithm has an obvious weakness:
+You may quickly realize that the algorithm has an obvious weakness:
 If a cluster is stretched very long, some of its points may get assigned to a different cluster, even though there's a clear gap between them.
+This is because the algorithm bases on the distances to the cluster centers but doesn't take into account the individual distances of datapoints to each other.
 
-<style>
-</style>
-
-<div class="slider-container">
-    <input id="numClustersSlider" type="range" min="2" max="20" step="1" value="3" />
-    <label for="numClustersSlider"><span id="numClustersValue">3</span> Number of Clusters</label>
-</div>
+<link rel="stylesheet" href="../../../../assets/css/styles.css" />
 
 <div class="slider-container">
+        <label for="numClustersSlider">Number of Clusters</label>
+        <span id="numClustersValue">3</span>
+        <input id="numClustersSlider" type="range" min="2" max="20" step="1" value="3" />
+    </div>
+
+<div class="slider-container">
+    <label for="fuzzinessSlider">Fuzziness</label>
+    <span id="fuzzinessValue">1.5</span>
     <input id="fuzzinessSlider" type="range" min="1.001" max="3.5" step="0.001" value="1.5" />
-    <label for="fuzzinessSlider"><span id="fuzzinessValue">1.5</span> Fuzziness (the closer to 1, the sharper the boundaries)</label>
 </div>
 
 <div class="slider-container">
+    <label for="maxIterationsSlider">Max Iterations</label>
+    <span id="maxIterationsValue">30</span>
     <input id="maxIterationsSlider" type="range" min="1" max="200" step="1" value="30" />
-    <label for="maxIterationsSlider"><span id="maxIterationsValue">30</span> Max Iterations</label>
 </div>
 
 <div class="slider-container">
+    <label for="errorToleranceSlider">Error Tolerance</label>
+    <span id="errorToleranceValue">0.001</span>
     <input id="errorToleranceSlider" type="range" min="0.0" max="0.1" step="0.0001" value="0.001" />
-    <label for="errorToleranceSlider"><span id="errorToleranceValue">0.001</span> Error Tolerance</label>
 </div>
 
 <div class="button-container">
@@ -69,3 +74,7 @@ If a cluster is stretched very long, some of its points may get assigned to a di
 <script src="../../../../assets/js/interactive_animations/src/colors.js"></script>
 <script src="../../../../assets/js/interactive_animations/src/fcm.js"></script>
 <script src="../../../../assets/js/interactive_animations/fcm_example.js"></script>
+
+The code can be found [here](https://github.com/sven-hoek/interactive_animations/blob/66e90aa47a9860b8ef503338fc08f0af174c2873/src/fcm.js).
+
+Quite a while ago, I also wrote a Python version with standalone GUI, which you can find [here](https://github.com/sven-hoek/fcm_playground/).
