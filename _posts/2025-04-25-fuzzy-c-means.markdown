@@ -28,12 +28,6 @@ You will realize that the algorithm has an obvious weakness:
 If a cluster is stretched very long, some of its points may get assigned to a different cluster, even though there's a clear gap between them.
 
 <style>
-  #runAlgorithmButton {
-    font-size: 16px;
-    padding: 15px 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
 </style>
 
 <div class="slider-container">
@@ -63,15 +57,15 @@ If a cluster is stretched very long, some of its points may get assigned to a di
 
 <canvas id="fcmCanvas" style="touch-action:none;"></canvas>
 
-<script src="../../../../assets/js/simple_physics_sim/src/util.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/vector.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/input.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/environment.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawing.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawables/mouse_circle.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawables/constrained_point.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawables/soft_body.js"></script>
-<script src="../../../../assets/js/ndarray.js"></script>
-<script src="../../../../assets/js/colors.js"></script>
-<script src="../../../../assets/js/fcm.js"></script>
-<script src="../../../../assets/js/fcm_example.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/util.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/vector.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/input.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/environment.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawing.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawables/soft_body.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/ndarray.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/colors.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/fcm.js"></script>
+<script src="../../../../assets/js/interactive_animations/fcm_example.js"></script>

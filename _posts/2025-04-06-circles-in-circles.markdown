@@ -14,12 +14,12 @@ Inspired by [Sublucid Geometry's blog post](https://zalo.github.io/blog/constrai
 
 <canvas id="circlesInCirclesCanvas" style="touch-action:none;"></canvas>
 
-<script src="../../../../assets/js/simple_physics_sim/src/util.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/vector.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/input.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/environment.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawing.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawables/chains.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawables/constrained_point.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/src/drawables/mouse_circle.js"></script>
-<script src="../../../../assets/js/simple_physics_sim/circles_in_circles.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/util.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/vector.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/input.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/environment.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawing.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawables/chains.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
+<script src="../../../../assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
+<script src="../../../../assets/js/interactive_animations/circles_in_circles.js"></script>

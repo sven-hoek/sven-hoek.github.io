@@ -48,7 +48,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-    - assets/js/simple_physics_sim/README.md
+    - assets/js/interactive_animations/README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
