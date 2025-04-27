@@ -3,6 +3,7 @@ layout: post
 title:  "Soft Body Simulation"
 date:   2025-04-21 16:17:21 +0800
 categories: blog
+image: assets/img/blob.png
 
 ---
 
@@ -13,7 +14,7 @@ Play around with the parameters and see the blob getting more gooey or more firm
 Touch the screen or move the mouse around to start and interact. Note that scrolling with a touchscreen requires to touch ouside the canvas area.
 If the blob swallows one of the balls, it may help to jerk the size-slider around.
 
-<link rel="stylesheet" href="../../../../assets/css/styles.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}assets/css/styles.css" />
 
 <div class="slider-container">
     <label for="sizeSlider">Size</label>
@@ -35,14 +36,14 @@ If the blob swallows one of the balls, it may help to jerk the size-slider aroun
 
 <canvas id="softBodyCanvas" style="touch-action:none;"></canvas>
 
-<script src="../../../../assets/js/interactive_animations/src/util.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/vector.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/input.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/environment.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawing.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/soft_body.js"></script>
-<script src="../../../../assets/js/interactive_animations/soft_body.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/util.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/vector.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/input.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/environment.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawing.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/soft_body.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/soft_body.js"></script>
 
 The code can be found at [https://github.com/sven-hoek/interactive_animations/](https://github.com/sven-hoek/interactive_animations/).
 

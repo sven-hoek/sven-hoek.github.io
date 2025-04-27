@@ -3,6 +3,7 @@ layout: post
 title:  "Clustering with Fuzzy C-Means"
 date:   2025-04-25 16:17:21 +0800
 categories: blog
+image: assets/img/fcm.png
 
 ---
 
@@ -29,7 +30,7 @@ You may quickly realize that the algorithm has an obvious weakness:
 If a cluster is stretched very long, some of its points may get assigned to a different cluster, even though there's a clear gap between them.
 This is because the algorithm bases on the distances to the cluster centers but doesn't take into account the individual distances of datapoints to each other.
 
-<link rel="stylesheet" href="../../../../assets/css/styles.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}assets/css/styles.css" />
 
 <div class="slider-container">
         <label for="numClustersSlider">Number of Clusters</label>
@@ -62,18 +63,18 @@ This is because the algorithm bases on the distances to the cluster centers but 
 
 <canvas id="fcmCanvas" style="touch-action:none;"></canvas>
 
-<script src="../../../../assets/js/interactive_animations/src/util.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/vector.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/input.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/environment.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawing.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/soft_body.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/ndarray.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/colors.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/fcm.js"></script>
-<script src="../../../../assets/js/interactive_animations/fcm_example.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/util.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/vector.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/input.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/environment.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawing.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/soft_body.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/ndarray.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/colors.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/fcm.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/fcm_example.js"></script>
 
 The code can be found [here](https://github.com/sven-hoek/interactive_animations/blob/66e90aa47a9860b8ef503338fc08f0af174c2873/src/fcm.js).
 

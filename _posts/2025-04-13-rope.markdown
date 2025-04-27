@@ -3,6 +3,7 @@ layout: post
 title:  "Elastic Rope with Obstacle Collision"
 date:   2025-04-13 16:17:00 +0800
 categories: blog
+image: assets/img/rope.png
 
 ---
 
@@ -11,19 +12,19 @@ Smash the rope into the other objects and watch them interact.
 
 Touch the screen or move the mouse around to start and interact. Note that scrolling with a touchscreen requires to touch ouside the canvas area.
 
-<link rel="stylesheet" href="../../../../assets/css/styles.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}assets/css/styles.css" />
 
 <canvas id="ropeCanvas" style="touch-action:none;"></canvas>
 
-<script src="../../../../assets/js/interactive_animations/src/util.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/vector.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/input.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/environment.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawing.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/chains.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
-<script src="../../../../assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
-<script src="../../../../assets/js/interactive_animations/rope.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/util.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/vector.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/input.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/environment.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawing.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/chains.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
+<script src="{{ site.baseurl }}assets/js/interactive_animations/rope.js"></script>
 
 The code can be found at [https://github.com/sven-hoek/interactive_animations/](https://github.com/sven-hoek/interactive_animations/).
 
