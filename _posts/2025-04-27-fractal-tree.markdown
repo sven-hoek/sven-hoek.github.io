@@ -18,7 +18,7 @@ Increase or decrease the depth to get simpler or more complex structures.
 With the shortening factor, you can determine, how much shorter each branch gets, the higher up it is.
 Values larger than 1.0 means the branches actually get longer towards the tree top and with a large enough angle, you'll get canvas-filling structures.
 
-<link rel="stylesheet" href="{{ site.baseurl }}assets/css/styles.css" />
+<link rel="stylesheet" href="/assets/css/styles.css" />
 
 <div class="slider-container">
     <label for="depthSlider">Depth</label>
@@ -32,14 +32,14 @@ Values larger than 1.0 means the branches actually get longer towards the tree t
     <input id="shorteningFactorSlider" type="range" min="0.1" max="1.5" step="0.05" value="0.8" />
 </div>
 
-<canvas id="fractalTreeCanvas"></canvas>
+<canvas id="fractalTreeCanvas" style="touch-action:none;"></canvas>
 
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/util.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/vector.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/input.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/environment.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawing.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/fractal_tree.js"></script>
+<script src="/assets/js/interactive_animations/src/util.js"></script>
+<script src="/assets/js/interactive_animations/src/vector.js"></script>
+<script src="/assets/js/interactive_animations/src/input.js"></script>
+<script src="/assets/js/interactive_animations/src/environment.js"></script>
+<script src="/assets/js/interactive_animations/src/drawing.js"></script>
+<script src="/assets/js/interactive_animations/fractal_tree.js"></script>
 
 The code is very simple, using recursion:
 ```js

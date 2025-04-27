@@ -11,21 +11,21 @@ image: assets/img/chains.png
 By projecting point positions so they respect constraints (minimum distance, maximum distance or exact distance), their velocity implicityly gets manipulated, resulting in seemingly correct impulse transfers when colliding.
 Or by chaining points together and having them keep a fixed distance to their neighboring points, one can get snake-like chains that follow the first point.
 Going along the chain back and forth, enforcing the constraint, one can get a chain of which both end points can be set to a desired position and the other points will follow.
-<!-- ![Image]({{ site.baseurl }}assets/img/circles_in_circles2.png) -->
+<!-- ![Image](/assets/img/circles_in_circles2.png) -->
 
 Touch the screen or move the mouse around to start and interact. Note that scrolling with a touchscreen requires to touch ouside the canvas area.
 
-<link rel="stylesheet" href="{{ site.baseurl }}assets/css/styles.css" />
+<link rel="stylesheet" href="/assets/css/styles.css" />
 <canvas id="chainsCanvas" style="touch-action:none;"></canvas>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/util.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/vector.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/input.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/environment.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawing.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/chains.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/chains.js"></script>
+<script src="/assets/js/interactive_animations/src/util.js"></script>
+<script src="/assets/js/interactive_animations/src/vector.js"></script>
+<script src="/assets/js/interactive_animations/src/input.js"></script>
+<script src="/assets/js/interactive_animations/src/environment.js"></script>
+<script src="/assets/js/interactive_animations/src/drawing.js"></script>
+<script src="/assets/js/interactive_animations/src/drawables/chains.js"></script>
+<script src="/assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
+<script src="/assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
+<script src="/assets/js/interactive_animations/chains.js"></script>
 
 The code can be found at [https://github.com/sven-hoek/interactive_animations/](https://github.com/sven-hoek/interactive_animations/).
 

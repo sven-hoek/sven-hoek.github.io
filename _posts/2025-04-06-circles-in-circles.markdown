@@ -15,19 +15,19 @@ With enough self-avoiding points, it almost seems like a splashing liquid.
 Touch the screen or move the mouse around to start and interact. Note that scrolling with a touchscreen requires to touch ouside the canvas area.
 Elements either have a minimum distance (being pushed away from each other) or a maximum distance (being contained with one another).
 
-<link rel="stylesheet" href="{{ site.baseurl }}assets/css/styles.css" />
+<link rel="stylesheet" href="/assets/css/styles.css" />
 
 <canvas id="circlesInCirclesCanvas" style="touch-action:none;"></canvas>
 
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/util.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/vector.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/input.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/environment.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawing.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/chains.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
-<script src="{{ site.baseurl }}assets/js/interactive_animations/circles_in_circles.js"></script>
+<script src="/assets/js/interactive_animations/src/util.js"></script>
+<script src="/assets/js/interactive_animations/src/vector.js"></script>
+<script src="/assets/js/interactive_animations/src/input.js"></script>
+<script src="/assets/js/interactive_animations/src/environment.js"></script>
+<script src="/assets/js/interactive_animations/src/drawing.js"></script>
+<script src="/assets/js/interactive_animations/src/drawables/chains.js"></script>
+<script src="/assets/js/interactive_animations/src/drawables/constrained_point.js"></script>
+<script src="/assets/js/interactive_animations/src/drawables/mouse_circle.js"></script>
+<script src="/assets/js/interactive_animations/circles_in_circles.js"></script>
 
 The code can be found at [https://github.com/sven-hoek/interactive_animations/](https://github.com/sven-hoek/interactive_animations/).
 
