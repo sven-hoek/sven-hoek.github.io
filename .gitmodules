@@ -1,3 +1,3 @@
 [submodule "assets/js/simple_physics_sim"]
-	path = assets/js/simple_physics_sim
+	path = assets/js/interactive_animations
 	url = git@github.com:sven-hoek/interactive_animations.git
